@@ -4,5 +4,35 @@
 */
 
 .menu {
-  color: blue;
+  color: black;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+  width: 100%;
+  padding: 10px; /* may change the amount */
+  margin-bottom: 1rem;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+.logo-text {
+  font-size: 1.5rem; /* may change the amount */
+  font-family: cursive;
+  color: orange;
+}
+
+.header-text {
+  font-size: 1rem;
+  color: darkblue;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
